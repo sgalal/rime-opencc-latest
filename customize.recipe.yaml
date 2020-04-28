@@ -1,0 +1,9 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: customize
+  description: >-
+    Customize input schema to use the latest OpenCC dictionary
+
+install_files: >-
+  # opencc/*.*
