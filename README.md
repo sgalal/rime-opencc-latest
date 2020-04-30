@@ -4,6 +4,8 @@ Recipe: ℞ `sgalal/rime-opencc-latest`
 
 Customize rime input schemata to use the latest [OpenCC](https://github.com/BYVoid/OpenCC) dictionaries
 
+For 32-bit version, see [sgalal/rime-opencc-32bit-latest](https://github.com/sgalal/rime-opencc-32bit-latest).
+
 ## Why
 
 The OpenCC shipped with rime installer is not the latest version. Using the latest version will improve the accuracy of OpenCC conversion.
