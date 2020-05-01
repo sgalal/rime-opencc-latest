@@ -30,33 +30,8 @@ $ curl -fsSL https://git.io/rime-install | bash -s -- sgalal/rime-opencc-latest
 
 ## Build Script
 
-Environment: MinGW-w64
-
-Prerequisites:
-
-```sh
-$ pacman -S mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake
-```
-
-Clone repository:
-
-```sh
-$ git clone https://github.com/BYVoid/OpenCC.git opencc-dir
-```
-
-Build:
-
-```sh
-$ (cd opencc-dir && git checkout -f master && git pull)
-$ cp -r opencc-dir/data/dictionary .
-$ (cd opencc-dir && git checkout -f ver.1.0.6)
-$ cp -r dictionary opencc-dir/data
-$ cmake -G"CodeBlocks - MinGW Makefiles" -Sopencc-dir -Bbuild -DCMAKE_INSTALL_PREFIX:PATH=.
-$ cmake --build build --config Release --target install
-$ rm -rf opencc
-$ cp -r build/share/opencc .
-```
+See [CI Build](https://ci.appveyor.com/project/chromezh/opencc).
 
 ## Version
 
-OpenCC [`fd0636f`](https://github.com/BYVoid/OpenCC/commit/fd0636fa904cae284276eaeb8babb3254cba8398)
+OpenCC [`8e8fb25`](https://github.com/BYVoid/OpenCC/commit/8e8fb25707b5ef5709e1a278149ce88217a5fbf6)
