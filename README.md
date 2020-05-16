@@ -34,4 +34,4 @@ See [CI Build](https://ci.appveyor.com/project/chromezh/opencc).
 
 ## Version
 
-OpenCC [`8e8fb25`](https://github.com/BYVoid/OpenCC/commit/8e8fb25707b5ef5709e1a278149ce88217a5fbf6)
+OpenCC [`fb3618d`](https://github.com/BYVoid/OpenCC/commit/fb3618d29c494dc39d616b6351cd23dc0464133a)
