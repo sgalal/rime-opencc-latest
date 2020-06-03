@@ -31,7 +31,3 @@ $ curl -fsSL https://git.io/rime-install | bash -s -- sgalal/rime-opencc-latest
 ## Build Script
 
 See [CI Build](https://ci.appveyor.com/project/chromezh/opencc).
-
-## Version
-
-OpenCC [`fb3618d`](https://github.com/BYVoid/OpenCC/commit/fb3618d29c494dc39d616b6351cd23dc0464133a)
